@@ -1,0 +1,105 @@
+body {
+    font-family: Baskerville, Prillwitz; /* Sets font family */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #F8F0E5; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes items align in a row */
+    justify-content: space-around; /* Distributes items evenly */
+    background-color: #102C57; /* Background color for visibility */
+}
+
+nav ul li {
+    flex-grow: 3; /* Allows items to stretch */
+    text-align: center; /* Centers the text */
+    display: inline;
+    padding: 10px;
+    font-family: prillwitz pro, sans-serif; /* Sets font family */
+    font-style: normal;
+    color: white;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    font-style: bold;
+}
+
+nav ul li a:hover {
+    background-color: #153463;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.link-list {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes extra padding */
+    font-family: prillwitz pro, sans-serif; /* Sets font family */
+    font-style: normal;
+}
+
+.link-list li {
+    margin: 10px 0; /* Adds spacing between links */
+        text-decoration: none;
+
+}
+
+a {
+    font-family: 'baskerville'; /* Sets font family */
+    text-decoration: none; /* Removes underline from links */
+    color: #15293f; /* Bootstrap primary color */
+    font-size: 24px; /* Increases font size */
+}
+
+h2 {
+    font-family: 'baskerville'; /* Sets font family */
+    font-style: normal;
+    color: #15293f; /* Bootstrap primary color */
+    margin-top: 20px; /* Adds space above the heading */
+    font-size: 35px; /* Increases font size */
+}
+
+p {
+font-size: large;
+padding-bottom: 75px;
+}
+
+main {
+    padding-top: 30px; /* Adjust for more or less space */
+}
+
+img {
+    width: 500px; /* Sets the width */
+    height: auto; /* Maintains aspect ratio */
+    border: 5px solid #102C57; /* Adds a solid border */
+    border-radius: 20px; /* Rounds the edges */
+    display: block; /* Ensures proper positioning */
+    margin: 20px auto; /* Centers the image */
+}
+
+h1{
+    padding-bottom: 75px;
+}
+
+.textual-evidence {}
+
+.character-analysis {}
+
+.theme-Analysis {}
+
+.hero-journey {}
+
+.archetypes {}
+
+.creative-expression {}
